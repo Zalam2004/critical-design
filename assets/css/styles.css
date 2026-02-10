@@ -5,6 +5,7 @@
 }
 .backgroundImage {
 	background-image: url(../img/wrench.png);
+	cursor: crosshair;
 	width: 400px;
 	height: 400px;
 	margin: 64px auto;
