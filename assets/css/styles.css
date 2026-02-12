@@ -4,17 +4,26 @@
 	background-color: #1C2632;
 	font-family: Helvetica, Arial, sans-serif;
 }
-.imageSwap: {
-	background-image: url(../img/Laptop.jpeg);
-	height: 522;
-	width: 522;
-	margin: 64px auto;
+.defaultImage: {
+	display: none;
+	/*background-image: url(../img/Laptop.jpeg);
+	height: 200;
+	width: 200;
+	margin: 64 px auto;*/
 }
 
-.imageSwap:hover {
+.container:hover .defaultImage {
+	display: none;
+}
+
+.container:hover .imageSwap {
+	display: inline;
+}
+
+/*.imageSwap:hover {
 	background-image: url(../img/Paper_Shreddar.jpeg);
 	cursor: crosshair;
-}
+}*/
 
 h1 {
 	color: white;
