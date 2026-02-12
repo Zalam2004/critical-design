@@ -1,25 +1,30 @@
 /* styles.css */
 
 * body {
-	background-color: #e6ce55;
+	background-color: #1C2632;
 	font-family: Helvetica, Arial, sans-serif;
 }
-.backgroundImage {
-	background-image: url(../img/wrench.png);
-	width: 400px;
-	height: 400px;
+.imageSwap: {
+	background-image: url(../img/Laptop.jpeg);
+	height: 522;
+	width: 522;
 	margin: 64px auto;
 }
 
-.backgroundImage:hover {
-	background-image: url(../img/clock.png);
+.imageSwap:hover {
+	background-image: url(../img/Paper_Shreddar.jpeg);
 	cursor: crosshair;
 }
 
 h1 {
-	color: black;
+	color: white;
 	font-size: 48px;
 	text-align: center;
+}
+
+.text {
+	width: 50%;
+	margin: 96px auto;
 }
 
 .text * {
@@ -31,24 +36,14 @@ h1 {
 }
 
 h2 {
-	color: dodgerblue;
+	color: white;
 	font-size: 40px;
-	text-align: left;
+	text-align: center;
+	margin-left: 40px auto;
 	font-family: "Jost", sans-serif;
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
 }
 
-h3 a:link,
-h3 a:visted {
-	color: dodgerblue;
-	text-decoration: none;
-}
-h3 a:hover {
-	color: white;
-}
-h3 { 
-	font-size: 16px;
-	text-align: right;
-}
+
