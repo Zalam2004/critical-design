@@ -1,29 +1,20 @@
 /* styles.css */
+.imageHover {
+	width: 200px;
+	height: 200px;
+	background-image: url(../img/laptop.png);
+	margin: 64px auto;
+}
+
+.imageHover:hover {
+	background-image: url(../img/battery.png);
+	cursor: crosshair;
+}
 
 * body {
 	background-color: #1C2632;
 	font-family: Helvetica, Arial, sans-serif;
 }
-.defaultImage: {
-	display: none;
-	/*background-image: url(../img/Laptop.jpeg);
-	height: 200;
-	width: 200;
-	margin: 64 px auto;*/
-}
-
-.container:hover .defaultImage {
-	display: none;
-}
-
-.container:hover .imageSwap {
-	display: inline;
-}
-
-/*.imageSwap:hover {
-	background-image: url(../img/Paper_Shreddar.jpeg);
-	cursor: crosshair;
-}*/
 
 h1 {
 	color: white;
@@ -53,6 +44,20 @@ h2 {
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
+}
+
+h3 {
+	font-size: 20 px;
+	text-align: center;
+}
+
+h3 a:link,
+h3 a:visted {
+	color: dodgerblue;
+	text-decoration: none;
+}
+h3 a:hover {
+	color: white;
 }
 
 
